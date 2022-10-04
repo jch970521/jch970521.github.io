@@ -269,15 +269,15 @@
           <h2>Portfolio</h2>
           <p>공공데이터 융합 자바/스프링 개발자 양성과정 을 진행하면서 , 제작된 개인 & 팀프로젝트들 입니다.</p>
         </div>
-
-        <div class="row" data-aos="fade-up">
+<!-- 
+       <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
+             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">전체 보기</li>
               <li data-filter=".filter-lms">LMS</li>
               <li data-filter=".filter-shop">SHOP</li>
               <li data-filter=".filter-blog">BLOG</li>
-              <!-- <li data-filter=".filter-bank">BANK</li> -->
+              <li data-filter=".filter-bank">BANK</li>
             </ul>
           </div>
         </div>
@@ -295,94 +295,52 @@
                	대학교 시절 학사관리시스템을 이용하였던 이용자입장 에서
                	학사관리시스템을 만드는 개발자입장이 되니 색다르고 재미있었습니다.
                	<br>Spring Tool Suite 프로그램으로 작성되었습니다.
-               </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-lms">
-            <div class="portfolio-wrap">
-				<img src="./assets/img/lmserd.png" class="img-fluid" alt="lmstable">
-              <div class="portfolio-links">
-                <a href="./assets/img/lmserd.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="lms 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-               <p>
+               	
                	프로젝트에 사용된 ERD관계도 입니다.
                </p>
             </div>
-          </div> 
-                   
+          </div>
+         
+         
+         
           <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
             <div class="portfolio-wrap">
               <img src="./assets/img/shoplogin.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="./assets/img/shoplogin.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="shop1"><i class="bx bx-plus"></i></a>
+                <a href="./assets/img/shoplogin.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="shop"><i class="bx bx-plus"></i></a>
                 <a href="http://52.78.72.97/shop/loginForm.jsp" title="More Details"><i class="bx bx-link"></i></a>
               </div>
                   <p>개인으로 만든 쇼핑몰 프로젝트 입니다.
                   실생활에서 자주 접할수있는 인터넷쇼핑몰에 있는 간단한 기능들을 구현해 보았습니다.<br>
                   로그인과 회원가입을 스태프 / 고객으로 분리하여 구현하였습니다.
+                  
+                  	관리자페이지와 고객페이지가 나누어져있습니다.
+					관리자의 활성화값을 조정해 활성화 / 비활성화를 조정할 수 있습니다.
+					Spring을 배우기 전 작성된 프로젝트기 때문에 Eclipse로 작성되었습니다.
+					
+					회원가입시에는 주소API를 적용해보았습니다.
+					
+					상품리스트에서 상품구매를 누르면 갯수를 선택하고 직접 구매를 할 수 있게 구현하였습니다.
+					
                   </p>
 
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
-            <div class="portfolio-wrap">
-              <img src="./assets/img/shopactive.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="./assets/img/shopactive.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="shop2"><i class="bx bx-plus"></i></a>
-                <a href="http://52.78.72.97/shop/loginForm.jsp" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-                  <p>
-					관리자페이지와 고객페이지가 나누어져있습니다.
-					관리자의 활성화값을 조정해 활성화 / 비활성화를 조정할 수 있습니다.
-					Spring을 배우기 전 작성된 프로젝트기 때문에 Eclipse로 작성되었습니다.
-				 </p>
-            </div>
-          </div>
-          
-      	<div class="col-lg-4 col-md-6 portfolio-item filter-shop">
-            <div class="portfolio-wrap">
-              <img src="./assets/img/shopapi.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="./assets/img/shopapi.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="shop3"><i class="bx bx-plus"></i></a>
-                <a href="http://52.78.72.97/shop/loginForm.jsp" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-                  <p>
-					회원가입시에는 주소API를 적용해보았습니다.
-				 </p>
-            </div>
-          </div>
-          
-             	<div class="col-lg-4 col-md-6 portfolio-item filter-shop">
-            <div class="portfolio-wrap">
-              <img src="./assets/img/shopbuy.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="./assets/img/shopbuy.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="shop4"><i class="bx bx-plus"></i></a>
-                <a href="http://52.78.72.97/shop/loginForm.jsp" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-                  <p>
-                  	상품리스트에서 상품구매를 누르면 갯수를 선택하고 직접 구매를 할 수 있게 구현하였습니다.
-				 </p>
-            </div>
-          </div>
-          
+ 
         <div class="col-lg-4 col-md-6 portfolio-item filter-blog">
             <div class="portfolio-wrap">
               <img src="./assets/img/blogboard.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="./assets/img/blogboard.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="blog1"><i class="bx bx-plus"></i></a>
+                <a href="./assets/img/blogboard.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="blog"><i class="bx bx-plus"></i></a>
                 <a href="" title="More Details"><i class="bx bx-link"></i></a>
               </div>
                   <p>
-                  	간단하게 기능을 구현한 Blog프로젝트 입니다.
-                  	검색기능과 페이징기능이 구현되어 있습니다.
+
 				 </p>
             </div>
           </div>
           
- <!--          <div class="col-lg-4 col-md-6 portfolio-item filter-bank">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bank">
             <div class="portfolio-wrap">
               <img src="assets/img/BlogBoard.png" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -396,8 +354,111 @@
 				 </p>
             </div>
           </div>
-          -->
-      </div>
+         
+   
+      </div> -->
+      
+      <div class="colorlib-narrow-content">
+				<div class="row">
+					<div class="col-md-12">
+			         <div class="timeline-centered">
+				         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+				            <div class="timeline-entry-inner">
+				               <div class="timeline-icon color-4">
+				                  <i class="icon-pen2"></i>
+				               </div>
+				               <div class="timeline-label">
+				                  <h2>LMS</h2>
+				                  <p>
+				                  	<img src="./assets/img/lmslogin.png" style="width: 50%;">
+				                  </p>
+				                  <P>팀 프로젝트로 진행한 LMS 시스템 입니다.<br>
+               						대학교 시절 학사관리시스템을 이용하였던 이용자입장 에서
+               						학사관리시스템을 만드는 개발자입장이 되니 색다르고 재미있었습니다.<br>
+				               		Spring (MVC)방식을 이용해 대학교 LMS를 구현하였습니다.<br>
+				               		LMS의  기본적인 기능으로 학생의 출결, 시험, 과제를 구현해 놓았고,<br>
+				               		관리자 기능으로는 멤버(교수, 운영자, 학생) 회원가입 승인. 강의, 과목 개설 및 승인 등 레벨에 따라 서로 다른 기능으로 구현했으며,<br>
+				               		휴면유저 확인 , 메시지 삭제 등은 정해진 시간마다 작동이 되도록 하였습니다.
+				                  </P>
+	<!-- 			                  <p>
+				                  	<strong>Development Environment</strong> <br>
+				                  	OS : Window10 <br>
+				                  	Library : Spring Boot, JSTL, jQuery, Lombok, MyBatis, BootStrap <br>
+				                  	Language : HTML5, CSS3 , Java(openJDK 11.0.13), JavaScript<br>
+				                  	Database : MariaDB, HeidiSQL <br>
+				                  	WAS : Apache Tomcat9 IDE : Spring Tool Suite 4 <br>
+				                  	<strong>Service Environment</strong><br>
+				                  	OS: Ubuntu (16.04)<br>
+				                  	Platform : AWS Lightsail<br>
+				                  </p> -->
+             						<button type="button" class="btn btn-link" onclick="window.open('https://github.com/fiveooo/5000lms')">Github</button>
+					              	<button type="button" class="btn btn-link" onclick="window.open('https://docs.google.com/spreadsheets/d/1BicqyWIWpVd85Hrs_iLRjVpgcFTk37C-ICDN8E07FUo/edit#gid=34439137')">요구사항 정의서</button>
+					              	<button type="button" class="btn btn-link" onclick="window.open('./assets/img/lmserd.png')">ERD</button>
+					              	<button type="button" class="btn btn-primary" onclick="">프로젝트</button>
+				               </div>
+				            </div>
+				         </article>
+				         
+				         	<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+				            <div class="timeline-entry-inner">
+				               <div class="timeline-icon color-3">
+				                  <i class="icon-pen2"></i>
+				               </div>
+				               <div class="timeline-label">
+				               	<h2>쇼핑몰</h2>
+				                  <p>
+				                  	<img src="./assets/img/shoplogin.png" style="width: 80%;">
+				                  </p>
+				                  <p>
+				                 	개인으로 만든 쇼핑몰 프로젝트 입니다.
+                 				 	실생활에서 자주 접할수있는 인터넷쇼핑몰에 있는 간단한 기능들을 구현해 보았습니다.<br>
+                  					로그인과 회원가입을 스태프 / 고객으로 분리하여 구현하였습니다.
+                  					<br>
+                  					관리자페이지와 고객페이지가 나누어져있습니다.
+									관리자의 활성화값을 조정해 활성화 / 비활성화를 조정할 수 있습니다.
+									Spring을 배우기 전 작성된 프로젝트기 때문에 Eclipse로 작성되었습니다.
+									<br>
+									회원가입시에는 주소API를 적용했으며 , 상품리스트에서 상품구매를 누르면 갯수를 선택하고 직접 구매를 할 수 있게 구현하였습니다.
+				                  </p>       
+				                  <p>
+				                  	<button type="button" class="btn btn-link" onclick="window.open('https://github.com/jch970521/shop')">Github</button>
+				                  	<button type="button" class="btn btn-link" onclick="window.open('images/shopERD.JPG')">ERD</button>
+				                  	<button type="button" class="btn btn-primary" onclick="">프로젝트</button>
+				                  </p>
+				               </div>
+				            </div>
+				         </article>
+				         
+				         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+				            <div class="timeline-entry-inner">
+
+				               <div class="timeline-icon color-1">
+				                  <i class="icon-pen2"></i>
+				               </div>
+
+				               <div class="timeline-label">
+				                  <h2>BLOG</h2>
+				                  <p>
+				                  	<img src="./assets/img/blogboard.png" style="width: 80%;">
+				                  </p>
+				                  <p>
+				                     간단하게 기능을 구현한 Blog프로젝트 입니다.<br>
+                  					 검색기능과 페이징기능이 구현되어 있으며, 다이어리에 일정을 적거나<br>
+                  					 방명록 기능이 간단하게 구현되어 있습니다.
+				                  </p>
+				                  <p>
+				                  	<!-- window.open('window.open('images/ERD.png')); -->
+				                  	<button type="button" class="btn btn-link" onclick="window.open('https://github.com/jch970521/Blog')">Github</button>
+					              	<button type="button" class="btn btn-primary" onclick="">프로젝트</button>
+					              </p>
+				               </div>
+				            </div>
+				         </article>
+				      </div>
+				   </div>
+			   </div>
+			</div>
+			
 </div>
 
     </section><!-- End Portfolio Section -->
@@ -434,7 +495,6 @@
           </div>
       </div>
     </section><!-- End Contact Section -->
-
 
   </main><!-- End #main -->
 
